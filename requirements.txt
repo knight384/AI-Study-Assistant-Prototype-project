@@ -1,0 +1,8 @@
+# ─── Core ────────────────────────────────────────────────────────────────────
+openai-agents>=0.0.7          # OpenAI Agents SDK
+openai>=1.30.0                # OpenAI Python client (peer dependency)
+python-dotenv>=1.0.0          # Load .env files
+
+# ─── Optional: Gradio UI ─────────────────────────────────────────────────────
+# Uncomment the line below if you want to use `python main.py --ui`
+# gradio>=4.0.0
